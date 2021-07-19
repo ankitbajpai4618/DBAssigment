@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.example.tradestore.TradeStoreApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 9.361 s <<< FAILURE! - in com.example.tradestore.TradeStoreApplicationTests
+testTradeValidMaturDatePast  Time elapsed: 0.034 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Trade not valid> but was: <null>
+	at com.example.tradestore.TradeStoreApplicationTests.testTradeValidMaturDatePast(TradeStoreApplicationTests.java:43)
+
+testTradeValidateOldVersion  Time elapsed: 0.016 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
+	at com.example.tradestore.TradeStoreApplicationTests.testTradeValidateOldVersion(TradeStoreApplicationTests.java:53)
+
+testTradeSameVersionPastMatDate  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
+	at com.example.tradestore.TradeStoreApplicationTests.testTradeSameVersionPastMatDate(TradeStoreApplicationTests.java:78)
+

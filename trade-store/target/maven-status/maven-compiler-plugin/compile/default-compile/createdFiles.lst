@@ -1,0 +1,7 @@
+com\example\tradestore\exception\TradeNotValidException.class
+com\example\tradestore\repository\TradeRepository.class
+com\example\tradestore\service\TradeService.class
+com\example\tradestore\TradeStoreApplication.class
+com\example\tradestore\controller\TradeController.class
+com\example\tradestore\model\Trade.class
+com\example\tradestore\scheduler\TradeScheduler.class
